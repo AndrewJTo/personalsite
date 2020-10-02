@@ -1,7 +1,18 @@
 /*
  * Globals
  */
+/* Sections */
 
+.section {
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	padding-bottom: 20%;
+	padding-bottom: 20vh;
+	padding-top: 20%;
+	padding-top: 20vh;
+}
 /* Links */
 a,
 a:focus,
@@ -93,7 +104,7 @@ body {
  * Cover
  */
 .cover {
-	margin-top: 5%;
+	//margin-top: 5%;
   padding: 0 1.5rem;
 }
 .cover .btn-lg {
